@@ -2,7 +2,7 @@
 pipeline触发构建消息通知
 
 ### 克隆存储库
-    git clone https://github.com:hanlei153/jenkins_Build_inform.git
+    git clone https://github.com/hanlei153/jenkins_Build_inform.git
 ### 启动
     cd jenkins_Build_inform
     python3 inform.py
