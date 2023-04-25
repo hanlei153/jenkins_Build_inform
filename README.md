@@ -7,7 +7,7 @@ pipeline触发构建消息通知
     cd jenkins_Build_inform
     python3 inform.py
 
-### 容器运行，容器默认运行在8080端口，如果需要修改请更改dockerfile中的ENV
+### 容器运行，容器默认运行在8080端口
     cd jenkins_Build_inform
     docker build -t image:tag .
     docker run -it --name name image:tag
